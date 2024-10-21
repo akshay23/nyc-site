@@ -18,7 +18,10 @@ export default function Index() {
       margin: "0 auto",
       padding: "20px"
     }}>
-      <h1 style={{ fontSize: "2.5rem" }}>Under construction</h1>
+      {/* Add an image before the heading */}
+      <img src="https://e7.pngegg.com/pngimages/336/644/png-clipart-under-construction-under-construction.png" alt="Construction" style={{ maxWidth: "100%", marginBottom: "20px" }} />
+      <h1 style={{ fontSize: "2.5rem" }}>Under Construction</h1>
+      <img src="https://e7.pngegg.com/pngimages/336/644/png-clipart-under-construction-under-construction.png" alt="Construction" style={{ maxWidth: "100%", marginBottom: "20px" }} />
       <ul style={{ listStyleType: "none", padding: 0 }}>
         <p style={{ fontSize: "1.5rem" }}>
         In the meantime,&nbsp;
