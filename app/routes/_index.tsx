@@ -2,7 +2,7 @@ import type { MetaFunction } from "@vercel/remix";
 
 export const meta: MetaFunction = () => {
   return [
-    { title: "Akshay Bharath" },
+    { title: "Akshay Bharath's Site" },
     { name: "description", content: "Welcome, friend!" },
   ];
 };
