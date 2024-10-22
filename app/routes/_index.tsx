@@ -36,7 +36,7 @@ export default function Index() {
         >
           here
         </a>
-        &nbsp;are some Tim Duncan clutch moments. Enjoy!
+        &nbsp;are some amazing clutch moments from Tim Duncan. Enjoy!
         </p>
     </div>
   );
