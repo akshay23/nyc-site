@@ -1,3 +1,4 @@
+import { Link } from "@remix-run/react";
 import type { MetaFunction } from "@vercel/remix";
 
 export const meta: MetaFunction = () => {
@@ -38,6 +39,7 @@ export default function Index() {
         </a>
         &nbsp;are some amazing clutch moments from Tim Duncan. Enjoy!
         </p>
+        <p>Check out my <Link to="/resume">resume</Link>.</p>
     </div>
   );
 }
