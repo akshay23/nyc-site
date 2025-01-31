@@ -1,5 +1,6 @@
 import { Link } from "@remix-run/react";
 import type { MetaFunction } from "@vercel/remix";
+import Resume from '../components/Resume';
 
 export const meta: MetaFunction = () => {
   return [
@@ -10,16 +11,8 @@ export const meta: MetaFunction = () => {
 
 export default function Index() {
   return (
-    <div style={{
-      fontFamily: "system-ui, sans-serif",
-      lineHeight: "1.8",
-      textAlign: "center",
-      fontSize: "1.2rem",
-      maxWidth: "800px",
-      margin: "0 auto",
-      padding: "20px"
-    }}>
-      {/* Add an image before the heading */}
+    <div>
+      {/* Add an image before the heading
       <img 
         src="https://media.istockphoto.com/id/1411798446/vector/modern-coming-soon-under-construction-sticker-banner.jpg?s=612x612&w=0&k=20&c=KgQ9eYEfuzTdmc5ypmMYoz8JHPTbe_TjEXxyxNixKQ4=" 
         alt="Construction" 
@@ -39,7 +32,8 @@ export default function Index() {
         </a>
         &nbsp;are some amazing clutch moments from Tim Duncan. Enjoy!
         </p>
-        <p>Check out my <Link to="/resume">resume</Link>.</p>
+        <p>Check out my <Link to="/resume">resume</Link>.</p> */}
+        <Resume />
     </div>
   );
 }
