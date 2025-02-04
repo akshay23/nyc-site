@@ -4,7 +4,7 @@ export default function Resume() {
         <header className="resume-header">
           <h1>Akshay Bharath</h1>
           <div className="contact-info">
-            <p>Email: akshay.bharath@gmail.com</p>
+            <p>Email: akshay@akshaybharath.nyc</p>
             <p>Phone: (425) 802-4975</p>
             <p>LinkedIn: linkedin.com/in/akshaybharath</p>
           </div>
