@@ -1,19 +1,26 @@
+import "../styles/Resume.css";
+
 export default function Resume() {
     return (
       <div className="resume">
         <header className="resume-header">
           <h1>Akshay Bharath</h1>
           <div className="contact-info">
-            <p>Email: akshay@akshaybharath.nyc</p>
-            <p>Phone: (425) 802-4975</p>
-            <p>LinkedIn: linkedin.com/in/akshaybharath</p>
+            <p>
+              <i className="fas fa-envelope"></i>{" "}
+              <a href="mailto:akshay.bharath@gmail.com">akshay.bharath@gmail.com</a>
+            </p>
+            <p>
+              <i className="fab fa-linkedin"></i>{" "}
+              <a href="https://linkedin.com/in/akshaybharath">linkedin.com/in/akshaybharath</a>
+            </p>
           </div>
         </header>
   
         <section className="resume-section">
           <h2>Summary</h2>
           <p>
-          Experienced engineering manager and iOS Engineer with strong leadership, management, and coaching skills. Highly motivated to always take on any kind of challenge that is thrown my way, whether it people related or code-related. I love mentoring other engineers and I am always willing to lend an ear if someone needs to just talk. I love to really dig into all the layers of code that go into a mobile app, including networking, threads and queues, the UI, analytics, etc. I enjoy keeping up-to-date with all the latest libraries, frameworks, and ideas that other experts in the community share.
+          Accomplished mobile engineer with a demonstrated history of effective leadership, team management, and mentorship. I adapt my leadership approach to align with the unique needs of each opportunity and organization, with a strong preference for coaching and servant-leadership styles. Highly driven and proactive, I thrive on tackling diverse challenges, whether they involve technical problem-solving or team dynamics. I take great satisfaction in mentoring fellow engineers and providing support when needed. My expertise extends to the intricate aspects of mobile app development, including networking, thread management, UI/UX design, analytics, and more. I am committed to staying current with the latest libraries, frameworks, and industry best practices, continuously learning from thought leaders in the field.
           </p>
         </section>
   
@@ -70,31 +77,6 @@ export default function Resume() {
             <p className="date"><a href="https://uwaterloo.ca">University of Waterloo</a>, 2004 - 2009</p>
           </div>
         </section>
-  
-        <section className="resume-section">
-          <h2>Technical Skills</h2>
-          <ul className="skills-list">
-            <li>Swift</li>
-            <li>SwiftUI</li>
-            <li>Async/Await</li>
-            <li>Objectve-C</li>
-            <li>Python</li>
-            <li>RESTful APIs</li>
-            <li>Docker & Kubernetes</li>
-            <li>Architecture Design</li>
-          </ul>
-        </section>
-
-        <section className="resume-section">
-          <h2>Engineering Leadership Skills</h2>
-          <ul className="skills-list">
-            <li>Performance Mangement</li>
-            <li>Hiring A+ Candidates</li>
-            <li>Growth and Development</li>
-            <li>Cross-functional Collaboration</li>
-            <li>Strategic Partnership</li>
-          </ul>
-        </section>
       </div>
     );
-  }
+}
