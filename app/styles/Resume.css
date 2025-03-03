@@ -107,7 +107,7 @@ body {
 }
 
 .contact-info a {
-  color: #3498db;
+  color: #228B22;
   text-decoration: none;
   transition: color 0.3s ease;
 }
@@ -136,7 +136,7 @@ body {
 .resume-section h2 {
   font-size: 1.8em;
   color: #2c3e50;
-  border-bottom: 3px solid #3498db;
+  border-bottom: 3px solid #228B22;
   padding-bottom: 8px;
   margin-bottom: 20px;
   font-weight: 600;
@@ -225,6 +225,10 @@ body {
   line-height: 1.6;
 }
 
+.experience-item a {
+  color: #228B22;
+}
+
 @media (prefers-color-scheme: dark) {
   .experience-item li {
     color: #a0a0a0;
@@ -299,7 +303,7 @@ body {
 }
 
 .skills-list li {
-  background-color: #3498db;
+  background-color: #228B22;
   color: #fff;
   padding: 8px 15px;
   border-radius: 20px;
