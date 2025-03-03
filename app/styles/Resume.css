@@ -229,6 +229,10 @@ body {
   .experience-item li {
     color: #a0a0a0;
   }
+
+  .experience-item a {
+    color: #bb86fc;
+  }
 }
 
 /* Education Styles */
@@ -278,6 +282,10 @@ body {
 @media (prefers-color-scheme: dark) {
   .education-item .date {
     color: #a0a0a0;
+  }
+
+  .education-item a {
+    color: #bb86fc;
   }
 }
 
