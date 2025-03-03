@@ -37,6 +37,15 @@ body {
   letter-spacing: -1px;
 }
 
+.resume-header h4 {
+  font-size: 1.4em;
+  margin-top: 0em;
+  margin-bottom: 1.5em;
+  color: #2f1f31;
+  font-weight: 700;
+  letter-spacing: -1px;
+}
+
 .resume-header p {
   font-size: 1.2em;
   color: #666;
@@ -113,7 +122,7 @@ body {
 
 .experience-item ul {
   list-style-type: disc;
-  margin-left: 20px;
+  margin-left: 5px;
 }
 
 .experience-item li {
