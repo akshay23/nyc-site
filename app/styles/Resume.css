@@ -192,6 +192,10 @@ body {
       font-size: 2em;
   }
 
+  .resume-header h4 {
+    font-size: 1em;
+  }
+
   .resume-header p {
       font-size: 1em;
   }
@@ -221,6 +225,10 @@ body {
 @media (max-width: 480px) {
   .resume-header h1 {
       font-size: 1.8em;
+  }
+
+  .resume-header h4 {
+    font-size: 0.95em;
   }
 
   .resume-header p {
