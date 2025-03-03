@@ -5,7 +5,6 @@ export default function Resume() {
       <div className="resume">
         <header className="resume-header">
           <h1>Akshay Bharath</h1>
-          <h4>Engineering Leader</h4>
           <div className="contact-info">
             <p>
               <i className="fas fa-location-dot"></i>{" "}

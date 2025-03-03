@@ -8,6 +8,13 @@ body {
   padding: 0;
 }
 
+@media (prefers-color-scheme: dark) {
+  body {
+    color: #e0e0e0;
+    background: linear-gradient(135deg, #121212, #1e1e1e);
+  }
+}
+
 .resume {
   max-width: 800px;
   margin: 20px auto;
@@ -18,9 +25,22 @@ body {
   transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
+@media (prefers-color-scheme: dark) {
+  .resume {
+    background-color: #1e1e1e;
+    box-shadow: 0 4px 20px rgba(255, 255, 255, 0.1);
+  }
+}
+
 .resume:hover {
   transform: translateY(-5px);
   box-shadow: 0 8px 30px rgba(0, 0, 0, 0.2);
+}
+
+@media (prefers-color-scheme: dark) {
+  .resume:hover {
+    box-shadow: 0 8px 30px rgba(255, 255, 255, 0.2);
+  }
 }
 
 /* Header Styles */
@@ -37,6 +57,12 @@ body {
   letter-spacing: -1px;
 }
 
+@media (prefers-color-scheme: dark) {
+  .resume-header h1 {
+    color: #e0e0e0;
+  }
+}
+
 .resume-header h4 {
   font-size: 1.4em;
   margin-top: 0em;
@@ -46,10 +72,22 @@ body {
   letter-spacing: -1px;
 }
 
+@media (prefers-color-scheme: dark) {
+  .resume-header h4 {
+    color: #bb86fc;
+  }
+}
+
 .resume-header p {
   font-size: 1.2em;
   color: #666;
   font-weight: 300;
+}
+
+@media (prefers-color-scheme: dark) {
+  .resume-header p {
+    color: #a0a0a0;
+  }
 }
 
 .contact-info {
@@ -62,14 +100,32 @@ body {
   margin: 5px 0;
 }
 
+@media (prefers-color-scheme: dark) {
+  .contact-info p {
+    color: #a0a0a0;
+  }
+}
+
 .contact-info a {
   color: #3498db;
   text-decoration: none;
   transition: color 0.3s ease;
 }
 
+@media (prefers-color-scheme: dark) {
+  .contact-info a {
+    color: #bb86fc;
+  }
+}
+
 .contact-info a:hover {
   color: #2980b9;
+}
+
+@media (prefers-color-scheme: dark) {
+  .contact-info a:hover {
+    color: #9b6cfc;
+  }
 }
 
 /* Section Styles */
@@ -87,10 +143,23 @@ body {
   letter-spacing: -0.5px;
 }
 
+@media (prefers-color-scheme: dark) {
+  .resume-section h2 {
+    color: #e0e0e0;
+    border-bottom-color: #bb86fc;
+  }
+}
+
 .resume-section p {
   font-size: 1em;
   color: #555;
   line-height: 1.8;
+}
+
+@media (prefers-color-scheme: dark) {
+  .resume-section p {
+    color: #a0a0a0;
+  }
 }
 
 /* Experience Styles */
@@ -102,8 +171,20 @@ body {
   transition: background-color 0.3s ease;
 }
 
+@media (prefers-color-scheme: dark) {
+  .experience-item {
+    background-color: #333;
+  }
+}
+
 .experience-item:hover {
   background-color: #f0f0f0;
+}
+
+@media (prefers-color-scheme: dark) {
+  .experience-item:hover {
+    background-color: #444;
+  }
 }
 
 .experience-item h3 {
@@ -113,11 +194,23 @@ body {
   font-weight: 600;
 }
 
+@media (prefers-color-scheme: dark) {
+  .experience-item h3 {
+    color: #e0e0e0;
+  }
+}
+
 .experience-item .date {
   font-size: 0.9em;
   color: #777;
   margin-bottom: 10px;
   font-style: italic;
+}
+
+@media (prefers-color-scheme: dark) {
+  .experience-item .date {
+    color: #a0a0a0;
+  }
 }
 
 .experience-item ul {
@@ -132,6 +225,12 @@ body {
   line-height: 1.6;
 }
 
+@media (prefers-color-scheme: dark) {
+  .experience-item li {
+    color: #a0a0a0;
+  }
+}
+
 /* Education Styles */
 .education-item {
   margin-bottom: 20px;
@@ -141,8 +240,20 @@ body {
   transition: background-color 0.3s ease;
 }
 
+@media (prefers-color-scheme: dark) {
+  .education-item {
+    background-color: #333;
+  }
+}
+
 .education-item:hover {
   background-color: #f0f0f0;
+}
+
+@media (prefers-color-scheme: dark) {
+  .education-item:hover {
+    background-color: #444;
+  }
 }
 
 .education-item h3 {
@@ -152,10 +263,22 @@ body {
   font-weight: 600;
 }
 
+@media (prefers-color-scheme: dark) {
+  .education-item h3 {
+    color: #e0e0e0;
+  }
+}
+
 .education-item .date {
   font-size: 0.9em;
   color: #777;
   font-style: italic;
+}
+
+@media (prefers-color-scheme: dark) {
+  .education-item .date {
+    color: #a0a0a0;
+  }
 }
 
 /* Skills Styles */
@@ -177,19 +300,31 @@ body {
   transition: background-color 0.3s ease;
 }
 
+@media (prefers-color-scheme: dark) {
+  .skills-list li {
+    background-color: #bb86fc;
+  }
+}
+
 .skills-list li:hover {
   background-color: #2980b9;
+}
+
+@media (prefers-color-scheme: dark) {
+  .skills-list li:hover {
+    background-color: #9b6cfc;
+  }
 }
 
 /* Responsive Design */
 @media (max-width: 768px) {
   .resume {
-      padding: 15px;
-      margin: 10px;
+    padding: 15px;
+    margin: 10px;
   }
 
   .resume-header h1 {
-      font-size: 2em;
+    font-size: 2em;
   }
 
   .resume-header h4 {
@@ -197,34 +332,34 @@ body {
   }
 
   .resume-header p {
-      font-size: 1em;
+    font-size: 1em;
   }
 
   .resume-section h2 {
-      font-size: 1.5em;
+    font-size: 1.5em;
   }
 
   .experience-item h3 {
-      font-size: 1.1em;
+    font-size: 1.1em;
   }
 
   .skills-list li {
-      font-size: 0.8em;
-      padding: 6px 12px;
+    font-size: 0.8em;
+    padding: 6px 12px;
   }
 
   .contact-info p {
-      font-size: 0.9em;
+    font-size: 0.9em;
   }
 
   .experience-item, .education-item {
-      padding: 10px;
+    padding: 10px;
   }
 }
 
 @media (max-width: 480px) {
   .resume-header h1 {
-      font-size: 1.8em;
+    font-size: 1.8em;
   }
 
   .resume-header h4 {
@@ -232,27 +367,27 @@ body {
   }
 
   .resume-header p {
-      font-size: 0.95em;
+    font-size: 0.95em;
   }
 
   .resume-section h2 {
-      font-size: 1.4em;
+    font-size: 1.4em;
   }
 
   .experience-item h3 {
-      font-size: 1em;
+    font-size: 1em;
   }
 
   .skills-list li {
-      font-size: 0.75em;
-      padding: 5px 10px;
+    font-size: 0.75em;
+    padding: 5px 10px;
   }
 
   .contact-info p {
-      font-size: 0.85em;
+    font-size: 0.85em;
   }
 
   .experience-item, .education-item {
-      padding: 8px;
+    padding: 8px;
   }
 }
