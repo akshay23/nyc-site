@@ -26,6 +26,8 @@ export function Layout({ children }: { children: React.ReactNode }) {
         
         {/* Additional recommended meta tags */}
         <meta name="theme-color" content="#ffffff" />
+
+        <meta name="description" content="Akshay Bharath's resume showcasing skills as an engineering leader, mentor, and innovator"></meta>
         <Meta />
         <Links />
       </head>
