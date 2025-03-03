@@ -121,7 +121,8 @@ export default function Resume() {
           <h2>Education</h2>
           <div className="education-item">
             <h3>Bachelor of Computer Science (BCS)</h3>
-            <p className="date"><a href="https://uwaterloo.ca">University of Waterloo</a>, 2004 - 2009</p>
+            <p className="date">September 2004 - May 2009</p>
+            <p><a href="https://uwaterloo.ca">University of Waterloo</a></p>
           </div>
         </section>
       </div>
