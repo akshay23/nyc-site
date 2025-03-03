@@ -74,7 +74,7 @@ body {
 
 @media (prefers-color-scheme: dark) {
   .resume-header h4 {
-    color: #bb86fc;
+    color: #86c5fc;
   }
 }
 
@@ -114,7 +114,7 @@ body {
 
 @media (prefers-color-scheme: dark) {
   .contact-info a {
-    color: #bb86fc;
+    color: #86c5fc;
   }
 }
 
@@ -146,7 +146,7 @@ body {
 @media (prefers-color-scheme: dark) {
   .resume-section h2 {
     color: #e0e0e0;
-    border-bottom-color: #bb86fc;
+    border-bottom-color: #86c5fc;
   }
 }
 
@@ -231,7 +231,7 @@ body {
   }
 
   .experience-item a {
-    color: #bb86fc;
+    color: #86c5fc;
   }
 }
 
@@ -285,7 +285,7 @@ body {
   }
 
   .education-item a {
-    color: #bb86fc;
+    color: #86c5fc;
   }
 }
 
@@ -310,7 +310,7 @@ body {
 
 @media (prefers-color-scheme: dark) {
   .skills-list li {
-    background-color: #bb86fc;
+    background-color: #86c5fc;
   }
 }
 
