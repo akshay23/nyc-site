@@ -125,6 +125,14 @@ export default function Resume() {
             <p><a href="https://uwaterloo.ca">University of Waterloo</a></p>
           </div>
         </section>
+
+        <section className="resume-footer">
+          <div className="contact-info">
+            <a href="https://github.com/akshay23/nyc-site">
+              <i className="fab fa-github fa-2x"></i>{" "}
+            </a>
+          </div>
+        </section>
       </div>
     );
 }
