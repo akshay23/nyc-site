@@ -1,13 +1,21 @@
-import type { MetaFunction } from "@vercel/remix";
+import type { LinksFunction, MetaFunction } from "@vercel/remix";
+import Resume from '../components/Resume';
 
 export const config = { runtime: "edge" };
 
-export const meta: MetaFunction = () => [{ title: "Remix@Edge | New Remix App" }];
+export const meta: MetaFunction = () => [{ title: "Akshay Bharath's Resume" }];
+
+export const links: LinksFunction = () => [
+  {
+    rel: "stylesheet",
+    href: "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css",
+  },
+];
 
 export default function Edge() {
   return (
-    <div style={{ fontFamily: "system-ui, sans-serif", lineHeight: "1.4" }}>
-      <h1>Welcome</h1>
+    <div>
+      <Resume />
     </div>
   );
 }
