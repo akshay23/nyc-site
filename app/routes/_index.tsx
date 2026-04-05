@@ -1,6 +1,6 @@
 import type { MetaFunction } from "@vercel/remix";
-import type { LinksFunction } from "@remix-run/node"; 
 import Resume from '../components/Resume';
+import ThemeToggle from '../components/ThemeToggle';
 
 export const meta: MetaFunction = () => {
   return [
@@ -8,17 +8,11 @@ export const meta: MetaFunction = () => {
   ];
 };
 
-export const links: LinksFunction = () => [
-  {
-    rel: "stylesheet",
-    href: "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css",
-  },
-];
-
 export default function Index() {
   return (
     <div>
-        <Resume />
+      <ThemeToggle />
+      <Resume />
     </div>
   );
 }
