@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>KiddoLogger — Privacy Policy</title>
+  <style>
+    :root {
+      --accent: #4F8EF7;
+      --bg: #ffffff;
+      --text: #1a1a1a;
+      --muted: #6b7280;
+      --border: #e5e7eb;
+      --section-bg: #f9fafb;
+    }
+    @media (prefers-color-scheme: dark) {
+      :root {
+        --bg: #0f0f0f;
+        --text: #f0f0f0;
+        --muted: #9ca3af;
+        --border: #2d2d2d;
+        --section-bg: #1a1a1a;
+      }
+    }
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+      background: var(--bg);
+      color: var(--text);
+      line-height: 1.7;
+      padding: 2rem 1rem;
+      max-width: 760px;
+      margin: 0 auto;
+    }
+    header {
+      text-align: center;
+      padding-bottom: 2rem;
+      border-bottom: 1px solid var(--border);
+      margin-bottom: 2rem;
+    }
+    header h1 { font-size: 2rem; font-weight: 700; }
+    header p { color: var(--muted); margin-top: 0.5rem; font-size: 0.9rem; }
+    h2 {
+      font-size: 1.2rem;
+      font-weight: 600;
+      margin: 2rem 0 0.75rem;
+      padding-bottom: 0.4rem;
+      border-bottom: 1px solid var(--border);
+    }
+    h3 { font-size: 1rem; font-weight: 600; margin: 1.25rem 0 0.5rem; }
+    p { margin-bottom: 0.875rem; }
+    ul { margin: 0.5rem 0 0.875rem 1.5rem; }
+    li { margin-bottom: 0.35rem; }
+    .callout {
+      background: var(--section-bg);
+      border-left: 4px solid var(--accent);
+      border-radius: 0 6px 6px 0;
+      padding: 1rem 1.25rem;
+      margin: 1.25rem 0;
+    }
+    .callout strong { display: block; margin-bottom: 0.25rem; }
+    a { color: var(--accent); text-decoration: none; }
+    a:hover { text-decoration: underline; }
+    footer {
+      margin-top: 3rem;
+      padding-top: 1.5rem;
+      border-top: 1px solid var(--border);
+      font-size: 0.85rem;
+      color: var(--muted);
+      text-align: center;
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>KiddoLogger Privacy Policy</h1>
+  <p>Last updated: April 5, 2026 &nbsp;|&nbsp; Developer: Akshay Bharath</p>
+</header>
+
+<div class="callout">
+  <strong>Summary (plain English)</strong>
+  Your children's personal information stays on your device and in your own private iCloud account.
+  We never sell data, never use it for advertising, and analytics tools only receive anonymized
+  interaction events — no names, birthdates, quotes, or any other personal details about your children.
+</div>
+
+<h2>1. About This Policy</h2>
+<p>
+  This privacy policy explains how KiddoLogger ("the app", "we", "us") collects, uses, and protects
+  information when you use the KiddoLogger iOS application developed by Akshay Bharath.
+  By using the app you agree to the practices described here.
+</p>
+<p>
+  KiddoLogger is designed for parents and caregivers to log activities, events, and quotes for
+  children in their care. Because the app handles information about children, we follow the
+  <strong>Children's Online Privacy Protection Act (COPPA)</strong> and other applicable privacy laws.
+</p>
+
+<h2>2. Information We Collect</h2>
+
+<h3>2.1 Information you enter directly</h3>
+<ul>
+  <li><strong>Child profiles</strong> — name and date of birth</li>
+  <li><strong>Activities</strong> — type, time, optional notes (e.g. feeding, diaper, sleep)</li>
+  <li><strong>Events</strong> — title, date/time, optional location or notes</li>
+  <li><strong>Quotes</strong> — text, speaker attribution, timestamp</li>
+</ul>
+<p>
+  All of this data is entered voluntarily by you and belongs to you. It is stored on your device
+  using Apple's SwiftData framework and optionally synced through your <em>personal, private</em>
+  iCloud account via CloudKit (see Section 3).
+</p>
+
+<h3>2.2 Automatically collected device information</h3>
+<p>
+  When you use the app, our analytics providers (see Section 4) may automatically collect:
+</p>
+<ul>
+  <li>Device model and iOS version</li>
+  <li>App version</li>
+  <li>Session duration and screen views</li>
+  <li>Feature interaction events (e.g. "activity added", "sync triggered")</li>
+</ul>
+<p>
+  This information is collected in anonymized form and <strong>never includes any information
+  about your children</strong>. See Section 4 for details and how to opt out.
+</p>
+
+<h2>3. How Your Data Is Stored</h2>
+
+<h3>3.1 On-device storage</h3>
+<p>
+  All data you enter is stored locally on your device using Apple's SwiftData framework. Data
+  remains on your device unless you enable iCloud sync.
+</p>
+
+<h3>3.2 iCloud sync (optional)</h3>
+<p>
+  If you are signed into iCloud and have granted permission, KiddoLogger syncs your data through
+  Apple's CloudKit service to your <strong>private iCloud database</strong>. This means:
+</p>
+<ul>
+  <li>Only you can access the data — not us, not Apple (beyond what Apple's standard iCloud terms allow)</li>
+  <li>The data is encrypted in transit and at rest by Apple's infrastructure</li>
+  <li>You control the data through your Apple ID account settings</li>
+</ul>
+<p>
+  You can disable iCloud sync at any time via Settings → [Your Name] → iCloud on your iOS device.
+  iCloud sync is governed by <a href="https://www.apple.com/legal/privacy/" target="_blank" rel="noopener">Apple's Privacy Policy</a>.
+</p>
+
+<h2>4. Analytics and Third-Party Services</h2>
+
+<div class="callout">
+  <strong>Key guarantee</strong>
+  Our analytics sanitization layer actively blocks any attempt to send child personal information
+  (names, birthdates, quotes, activity descriptions, or any free-text content) to analytics providers.
+  Only anonymized interaction events reach third parties.
+</div>
+
+<h3>4.1 Mixpanel</h3>
+<p>
+  KiddoLogger uses <a href="https://mixpanel.com/legal/privacy-policy/" target="_blank" rel="noopener">Mixpanel</a>
+  to understand how features are used so we can improve the app. Mixpanel receives:
+</p>
+<ul>
+  <li>Anonymized event names (e.g. "activity_added", "sync_triggered")</li>
+  <li>Device model and iOS version</li>
+  <li>App version</li>
+  <li>A randomly generated device identifier (not linked to your Apple ID or any personal data)</li>
+</ul>
+<p>
+  Mixpanel does <strong>not</strong> receive child names, birthdates, activity notes, quotes, or any
+  other personal information. You can opt out of analytics at any time in the app's Settings →
+  Privacy → Disable Analytics.
+</p>
+
+<h3>4.2 Firebase / Google Analytics</h3>
+<p>
+  KiddoLogger includes the Firebase SDK (GoogleAppMeasurement), which automatically collects
+  basic session and screen-view data.
+  <a href="https://policies.google.com/privacy" target="_blank" rel="noopener">Google's Privacy Policy</a>
+  applies to this data. No child personal information is passed to Firebase.
+</p>
+
+<h3>4.3 Analytics opt-out</h3>
+<p>
+  You can disable all analytics collection at any time by going to <strong>Settings → Privacy →
+  Disable Analytics</strong> within the app. When disabled, no interaction data is sent to Mixpanel
+  or Firebase for the duration your preference is active.
+</p>
+
+<h2>5. COPPA Compliance</h2>
+<p>
+  KiddoLogger is a tool for parents and guardians — it is not directed at children and children
+  are not expected to use the app themselves. The app records information <em>about</em> children
+  (entered by parents), but this information:
+</p>
+<ul>
+  <li>Is stored only on your device and in your private iCloud account</li>
+  <li>Is never transmitted to our servers or any third party in identifiable form</li>
+  <li>Is never used for behavioral advertising, profiling, or any commercial purpose</li>
+  <li>Is never shared with other users or made publicly accessible</li>
+</ul>
+<p>
+  We do not knowingly allow children under 13 to create accounts or interact with our analytics
+  systems. If you believe a child has provided information through channels other than described
+  here, contact us at the address in Section 9 and we will promptly address it.
+</p>
+
+<h2>6. Data Retention and Deletion</h2>
+<p>
+  Your data is retained for as long as the app is installed on your device (and in iCloud if sync
+  is enabled). You have full control over deletion:
+</p>
+<ul>
+  <li>
+    <strong>Delete individual records</strong> — swipe to delete activities, events, or quotes
+    directly in the app.
+  </li>
+  <li>
+    <strong>Delete all data</strong> — go to <strong>Settings → Privacy → Delete All Data</strong>
+    to permanently remove all children and their associated records from the app and iCloud.
+  </li>
+  <li>
+    <strong>Uninstall</strong> — uninstalling the app removes local data. To remove iCloud data,
+    use Delete All Data before uninstalling, or manage via iCloud.com.
+  </li>
+</ul>
+<p>
+  Anonymized analytics data that has already been sent to Mixpanel or Firebase cannot be
+  retroactively deleted because it is not linked to your identity. Future collection can be
+  stopped at any time using the opt-out toggle described in Section 4.3.
+</p>
+
+<h2>7. Your Rights</h2>
+<p>
+  Because your data is stored entirely within your own device and iCloud account, you already
+  have direct access to, and control over, all personal data the app holds. You may:
+</p>
+<ul>
+  <li><strong>Access</strong> — view all data by browsing the app</li>
+  <li><strong>Correct</strong> — edit any record at any time within the app</li>
+  <li><strong>Delete</strong> — delete individual records or all data as described in Section 6</li>
+  <li><strong>Withdraw consent</strong> — disable analytics via Settings → Privacy → Disable Analytics;
+    disable iCloud sync via iOS Settings → [Your Name] → iCloud</li>
+  <li><strong>Data portability</strong> — contact us if you need an export of your data in a
+    portable format</li>
+</ul>
+
+<h3>7.1 California residents (CCPA)</h3>
+<p>
+  California residents have the right to know what personal information is collected, to delete
+  personal information, and to opt out of the sale of personal information. We do not sell personal
+  information. For CCPA requests, contact us at the address in Section 9.
+</p>
+
+<h3>7.2 EEA / UK residents (GDPR)</h3>
+<p>
+  If you are located in the European Economic Area or United Kingdom, you have rights under the
+  General Data Protection Regulation (GDPR) including access, rectification, erasure, restriction,
+  portability, and objection. Because we act as a data processor on your behalf (storing your data
+  in your own iCloud account), most requests can be fulfilled directly within the app. For other
+  GDPR requests, contact us at the address in Section 9.
+</p>
+
+<h2>8. Security</h2>
+<p>
+  We take reasonable technical and organisational measures to protect information:
+</p>
+<ul>
+  <li>On-device data is protected by iOS device encryption (Face ID / Touch ID)</li>
+  <li>iCloud data is encrypted in transit (TLS) and at rest by Apple</li>
+  <li>Analytics data is anonymized before transmission; a server-side sanitization layer
+    rejects any event containing known PII keys</li>
+  <li>No passwords or financial information are collected or stored by KiddoLogger</li>
+</ul>
+
+<h2>9. Contact</h2>
+<p>
+  For privacy questions, requests, or concerns, contact:
+</p>
+<p>
+  <strong>Akshay Bharath</strong><br>
+  Website: <a href="https://akshaybharath.nyc" target="_blank" rel="noopener">akshaybharath.nyc</a>
+</p>
+<p>
+  We aim to respond to all privacy inquiries within 30 days.
+</p>
+
+<h2>10. Changes to This Policy</h2>
+<p>
+  We may update this privacy policy from time to time. The "Last updated" date at the top of this
+  page will reflect any changes. Continued use of the app after a policy update constitutes
+  acceptance of the revised policy. We encourage you to review this page periodically.
+</p>
+
+<footer>
+  <p>KiddoLogger &copy; 2026 Akshay Bharath &nbsp;&middot;&nbsp; <a href="https://akshaybharath.nyc">akshaybharath.nyc</a></p>
+  <p style="margin-top:0.5rem;">This privacy policy applies to the KiddoLogger iOS application.</p>
+</footer>
+
+</body>
+</html>
