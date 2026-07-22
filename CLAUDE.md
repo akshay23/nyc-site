@@ -2,6 +2,10 @@
 
 This file provides guidance to Claude Code (claude.ai/code) when working with code in this repository.
 
+## Commits
+
+Do not include a `Co-Authored-By` line or any Claude attribution in commit messages or pull request descriptions.
+
 ## Branching
 
 Always create a new branch before making changes — never commit directly to `main`. Branch names must follow the pattern `akshay/<short-description>`, e.g. `akshay/add-skills-section`.
